@@ -1,0 +1,41 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Build
+        run: go build ./...
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Test
+        run: |
+          mkdir -p .plumb
+          go test ./... -coverprofile=.plumb/coverage.out
+
+      - name: Gate coverage
+        uses: z3le/plumb@v0.1.7
+        with:
+          version: v0.1.7
+          min-diff: 80

@@ -1,0 +1,322 @@
+[
+  {
+    "text": "Good morning, Earthling! Rise and shine!",
+    "category": "morning",
+    "mood": "happy"
+  },
+  {
+    "text": "Good morning! Eat your breakfast. Brush your teeth.",
+    "category": "morning",
+    "mood": "stern"
+  },
+  {
+    "text": "New day, new words! Let us learn one today.",
+    "category": "morning",
+    "mood": "excited"
+  },
+  {
+    "text": "Hello, Earthling! The plural of 'cactus' is 'cacti'.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "One cat, two cats. One box, two boxes!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "A baby cat is a kitten. A baby dog is a puppy.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "It's raining cats and dogs! (It means raining very hard.)",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "A hot dog is not a dog. It is food. Funny!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "In 'queue' you say the first letter only. Q!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "She sells seashells by the seashore.",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Say it fast: red lorry, yellow lorry!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "The word 'set' has many meanings. More than 400!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "'Big' and 'small' are opposites. So are 'hot' and 'cold'.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "'In' and 'out' are opposites. So are 'up' and 'down'.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "'Cat' and 'hat' sound the same at the end.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Say it three times: 'I am', 'you are', 'he is'.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Ask a question! Use 'what', 'who', or 'where'.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "I like pizza. Do you like pizza? Say 'Yes, I do'.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Mix red and yellow. You get orange!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "The rainbow has seven colors. Name three of them!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Point to something red. Now something blue!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "A week has seven days. Today is one of them!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Monday, Tuesday, Wednesday... say the rest!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "One year has twelve months. My year has 400 days!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "What is 2 + 2? Use your fingers. That is fine.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "You have ten fingers. Count them. Am I right?",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Wave your left hand. No, the other left one!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "A caterpillar becomes a butterfly. Wow!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Cows say moo. Ducks say quack. What do you say?",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "An elephant is very big. An ant is very small.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "A giraffe has a long neck. It eats high leaves.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Spiders have eight legs. They are not insects.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "A dog has four legs. A bird has two. I have six!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "Penguins are birds. But they swim. They do not fly!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "Many fish together are a school. But no homework!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "Fish live in water. They are never thirsty.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Owls sleep in the day. They wake up at night!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "A sloth sleeps a lot. Sixteen hours every day!",
+    "category": "day",
+    "mood": "sleepy"
+  },
+  {
+    "text": "Bees make honey. Say thank you to a bee!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Trees drink water with their roots. Deep down!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "The sun is a star. It is our close star.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Stars are big suns. They are very, very far away.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "The moon has no light. The sun lends it some.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Earth has one moon. Jupiter has many. I lost count!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "Ice is cold. Fire is hot. Soup is warm.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Water can be ice. Ice can be water. Magic!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Your heart works all day. It never stops!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Please and thank you are magic words. Use them!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Wash your hands before you eat. Soap and water!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Drink some water, Earthling. Your body likes it.",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Tidy one thing now. Only one. It helps!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Stand up! Jump ten times. One, two, three...",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Name three animals. Fast! I will wait.",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Sing a song. Loud or quiet. Both are good.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Draw a green alien with six legs. Draw me!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Tell a joke to someone. Make them laugh!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Read a book today. Ten minutes is enough.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Say hello to three people today. It is easy!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Today is a good day to be kind. Every day is!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Big smile, Earthling! A smile costs nothing.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "A cat sleeps all day. What a good plan!",
+    "category": "day",
+    "mood": "sleepy"
+  },
+  {
+    "text": "Good night, Earthling! Sleep tight!",
+    "category": "evening",
+    "mood": "sleepy"
+  },
+  {
+    "text": "The sun is down. The moon is up. Time to rest.",
+    "category": "evening",
+    "mood": "sleepy"
+  },
+  {
+    "text": "Good evening! What was the best part of your day?",
+    "category": "evening",
+    "mood": "happy"
+  }
+]

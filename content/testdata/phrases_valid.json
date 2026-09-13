@@ -1,0 +1,21 @@
+[
+  {
+    "text": "Good morning, Earthling!",
+    "category": "morning",
+    "mood": "happy"
+  },
+  {
+    "text": "Rise and shine.",
+    "category": "morning"
+  },
+  {
+    "text": "It is a fine day.",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Good evening.",
+    "category": "evening",
+    "mood": "sleepy"
+  }
+]
