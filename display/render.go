@@ -7,7 +7,7 @@ import (
 
 	"github.com/z3le/alien-buddy/content"
 	"golang.org/x/image/font"
-	"golang.org/x/image/font/basicfont"
+	"golang.org/x/image/font/inconsolata"
 	"golang.org/x/image/math/fixed"
 )
 
@@ -18,7 +18,7 @@ type Renderer struct {
 
 func NewRenderer() *Renderer {
 	return &Renderer{
-		face: basicfont.Face7x13,
+		face: inconsolata.Regular8x16,
 	}
 }
 
@@ -45,7 +45,7 @@ func (r *Renderer) Render(mood content.Mood, text string) image.Image {
 		}
 		xPos := centerX(line, r.face)
 		r.drawString(img, xPos, y, line)
-		y += 15
+		y += 18
 	}
 
 	// Add a divider line
@@ -60,7 +60,7 @@ func (r *Renderer) Render(mood content.Mood, text string) image.Image {
 	for _, line := range wrapped {
 		xPos := centerX(line, r.face)
 		r.drawString(img, xPos, y, line)
-		y += 15
+		y += 18
 
 		if y > Height-10 {
 			break // don't overflow the display
@@ -129,8 +129,8 @@ var aliens = map[content.Mood]string{
 	content.MoodHappy: `
      .  *  .
    . _\|/_ .
-    ( ^‿^ )
-  --{     }--
+    ( ^_^ )
+    --{     }--
     /_   _\
    (_/   \_)
 `,
@@ -138,7 +138,7 @@ var aliens = map[content.Mood]string{
      .  *  .
    . _\|/_ .
     ( -_- )
-  --{     }--
+    --{     }--
     /_   _\
    (_/   \_)
 `,
@@ -146,7 +146,7 @@ var aliens = map[content.Mood]string{
      .  *  .
    . _\|/_ .
     ( o_O )
-  --{     }--
+    --{     }--
     /_   _\
    (_/   \_)
 `,
@@ -154,15 +154,15 @@ var aliens = map[content.Mood]string{
      .  *  .
    . _\|/_ .
     ( u.u )
-  --{  ~  }--
+    --{  ~  }--
     /_   _\
    (_/   \_)
 `,
 	content.MoodExcited: `
      . *** .
    . _\|/_ .
-    ( ᗒᗨᗕ )
-  \-{     }-/
+    ( ^o^ )
+    \-{     }-/
     /_   _\
    (_/   \_)
 `,
@@ -170,8 +170,8 @@ var aliens = map[content.Mood]string{
         ?
      .  *  .
    . _\|/_ .
-    ( •_• )
-  --{     }--
+    ( ~_~ )
+    --{     }--
     /_   _\
    (_/   \_)
 `,

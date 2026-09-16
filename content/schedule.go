@@ -32,7 +32,7 @@ func DefaultSchedule() *Schedule {
 }
 
 func (s *Schedule) GetCategory() Category {
-	loc, err := time.LoadLocation("America/New_York")
+	loc, err := time.LoadLocation("America/Toronto")
 	if err != nil {
 		fmt.Println("Error loading location:", err)
 		loc = time.UTC // fallback to UTC if timezone cannot be loaded
