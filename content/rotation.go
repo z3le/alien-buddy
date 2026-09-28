@@ -41,6 +41,7 @@ type Rotation struct {
 	paused       bool
 	resumeAt     time.Time
 	stopCh       chan struct{}
+	wg           sync.WaitGroup
 }
 
 func NewRotation(phrases map[string][]Phrase, r Renderer, d Display, interval time.Duration) *Rotation {
@@ -59,7 +60,9 @@ func (rot *Rotation) Start() {
 	// Show first phrase immediately
 	rot.showNext()
 
+	rot.wg.Add(1)
 	go func() {
+		defer rot.wg.Done()
 		ticker := time.NewTicker(rot.interval)
 		defer ticker.Stop()
 
@@ -84,8 +87,11 @@ func (rot *Rotation) Start() {
 	}()
 }
 
+// Stop ends rotation and waits for an in-progress update to finish, so
+// nothing draws to the display after Stop returns.
 func (rot *Rotation) Stop() {
 	close(rot.stopCh)
+	rot.wg.Wait()
 }
 
 // PauseFor pauses rotation for the given duration (after a push message).

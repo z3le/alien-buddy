@@ -112,8 +112,9 @@ func NewWaveshare27() (*Waveshare27, error) {
 	return d, nil
 }
 
+// Close releases the SPI port. It does not clear the panel; call Clear
+// first if the screen should be blank after exit.
 func (d *Waveshare27) Close() error {
-	d.Clear()
 	return d.spi.Close()
 }
 

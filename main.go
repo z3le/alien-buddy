@@ -59,12 +59,18 @@ func main() {
 
 	// --- Start rotation ---
 	rotation.Start()
-	defer rotation.Stop()
 
 	// --- Wait for shutdown ---
+	// SIGHUP arrives when the controlling terminal (e.g. an SSH session)
+	// closes; without it the process dies before it can clear the panel.
 	sig := make(chan os.Signal, 1)
-	signal.Notify(sig, syscall.SIGINT, syscall.SIGTERM)
-	<-sig
-	log.Println("shutting down")
-	disp.Clear()
+	signal.Notify(sig, syscall.SIGINT, syscall.SIGTERM, syscall.SIGHUP)
+	s := <-sig
+	log.Printf("shutting down (%v)", s)
+
+	// Stop rotation first so it cannot draw over the cleared screen.
+	rotation.Stop()
+	if err := disp.Clear(); err != nil {
+		log.Printf("clear display: %v", err)
+	}
 }

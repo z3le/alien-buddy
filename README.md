@@ -28,6 +28,25 @@ scp alien-buddy phrases.json pi@<pi-ip>:~/
 
 ```
 
+## Run as a service
+
+A program that you start from an SSH console stops when you close the console.
+Use systemd to keep alien-buddy running and to start it at boot:
+
+```bash
+scp alien-buddy.service pi@<pi-ip>:~/
+# On the Pi:
+sudo cp alien-buddy.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now alien-buddy
+
+# Logs:
+journalctl -u alien-buddy -f
+```
+
+`sudo systemctl stop alien-buddy` clears the display before exit. After you copy a
+new binary, run `sudo systemctl restart alien-buddy`.
+
 ## Flags
 
 ```
