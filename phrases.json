@@ -305,6 +305,256 @@
     "mood": "sleepy"
   },
   {
+    "text": "One mouse, two mice. One foot, two feet!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "One child, two children. English is funny!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "One sheep, two sheep. Same word! Easy.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Yesterday I ate. Today I eat. Tomorrow I will eat!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "I go today. I went yesterday. Not 'goed'!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "'Knight' and 'night' sound the same. The 'k' is quiet!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "'Write' and 'right' sound the same. Tricky!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "'Hear' with your ear. Come 'here' to me!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Big, bigger, biggest. Small, smaller, smallest!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Good, better, best. Not 'gooder'!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "'Happy' and 'sad' are opposites. Show me happy!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "'Fast' and 'slow' are opposites. Walk slow. Now fast!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "A 'sun' + 'flower' = 'sunflower'. Words can join!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "A 'rain' + 'bow' = 'rainbow'. Make a new word!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Say 'please' when you ask. Say 'sorry' when you are wrong.",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "How are you? Say: 'I am fine, thank you!'",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "What is your name? Say: 'My name is ...'",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "How old are you? I am 300. Very young!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Can you spell 'cat'? C, A, T. Good!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Spell your name. Say each letter slowly.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "A, E, I, O, U are vowels. Find them in 'alien'!",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Z is the last letter. A is the first. Say them all!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Count to twenty. Then count back to one!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Eleven, twelve... Thirteen! Say the next one.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Half of ten is five. Half of four is two.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "A clock has two hands. But no fingers!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "It is lunch time on Earth? I eat moon cheese.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "An apple is a fruit. A carrot is a vegetable.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Bananas are yellow. Grapes are green or purple.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "I love Earth food. Especially the noodles!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Look out the window. What color is the sky?",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Sunny, rainy, windy, snowy. What is the weather?",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "A frog starts as a tadpole. Then it grows legs!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "A kangaroo carries its baby in a pocket!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Snails carry their house on their back. Slowly!",
+    "category": "day",
+    "mood": "sleepy"
+  },
+  {
+    "text": "An octopus has eight arms. I want eight arms!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "A whale is not a fish. It is a mammal!",
+    "category": "day",
+    "mood": "confused"
+  },
+  {
+    "text": "Cats say meow. Dogs say woof. Aliens say zork!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "The moon goes around Earth. Earth goes around the sun.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "Mars is red. People call it the red planet.",
+    "category": "day",
+    "mood": "thinking"
+  },
+  {
+    "text": "My spaceship is in the garden. Do not tell anyone!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Put your shoes away. Earth rules!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Sit up straight, Earthling. Good posture!",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Time for a snack? Fruit is a good choice.",
+    "category": "day",
+    "mood": "stern"
+  },
+  {
+    "text": "Go outside and play. Fresh air is good!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Help someone today. A small help is still help.",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Hug someone you love. Humans like hugs!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
+    "text": "Make a funny face. I will make one too!",
+    "category": "day",
+    "mood": "excited"
+  },
+  {
+    "text": "Close your eyes. Take one big breath. Nice.",
+    "category": "day",
+    "mood": "sleepy"
+  },
+  {
+    "text": "Mistakes are OK. They help you learn!",
+    "category": "day",
+    "mood": "happy"
+  },
+  {
     "text": "Good night, Earthling! Sleep tight!",
     "category": "evening",
     "mood": "sleepy"

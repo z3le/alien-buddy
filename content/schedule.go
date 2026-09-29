@@ -21,6 +21,7 @@ func DefaultSchedule() *Schedule {
 		// no day category during the weekdays cause there is nobody home
 		Weekday: []TimeSlot{
 			{Start: 6, End: 9, Category: CategoryMorning},
+			{Start: 15, End: 21, Category: CategoryDay},
 			{Start: 21, End: 22, Category: CategoryEvening},
 		},
 		Weekend: []TimeSlot{
